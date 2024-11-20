@@ -24,7 +24,7 @@ public class ContactManager {
 	Returns the Contact record if found, null if not found.
     */
     public Contact findContact(String emailAddress) {
-    // Iterate through the contactList array
+        //EEEEEEEEEEEEEE
     for (Contact contact : contactList) {
         // Check if the current contact's email matches the provided emailAddress
         if (contact != null && emailAddress != null && emailAddress.equals(contact.getEmailAddress())) {
