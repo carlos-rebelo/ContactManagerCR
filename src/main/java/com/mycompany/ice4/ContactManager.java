@@ -10,6 +10,7 @@ package com.mycompany.ice4;
  */
 public class ContactManager {
     private Contact[] contactList;
+	//THis is a comment made directly in github
     private String myProperty;
 
     public String getMyProperty() {
