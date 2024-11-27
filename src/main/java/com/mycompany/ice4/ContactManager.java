@@ -16,6 +16,7 @@ public class ContactManager {
     public String getMyProperty() {
         return myProperty;
     }
+    //Comment made on the friend branch
 
     public void setMyProperty(String myProperty) {
         this.myProperty = myProperty;
