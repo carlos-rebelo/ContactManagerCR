@@ -10,6 +10,16 @@ package com.mycompany.ice4;
  */
 public class ContactManager {
     private Contact[] contactList;
+    private String myProperty;
+
+    public String getMyProperty() {
+        return myProperty;
+    }
+
+    public void setMyProperty(String myProperty) {
+        this.myProperty = myProperty;
+    }
+    
 
     public Contact[] getContactList() {
         return contactList;
